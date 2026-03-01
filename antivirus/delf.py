@@ -13,9 +13,10 @@ for process in psutil.process_iter(attrs=['pid', 'name']):
         break
 
 
-os.remove('C:/0.exe')
-os.remove('C:/1.exe')
-os.remove('C:/2.exe')
-os.remove('C:/3.exe')
+os.remove('C:/a.exe')
+os.remove('C:/b.exe')
+os.remove('C:/c.exe')
+os.remove('C:/d.exe')
+
 
 
